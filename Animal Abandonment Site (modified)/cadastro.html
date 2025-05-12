@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção Responsável</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="cadbackground">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="logo-link">PetzLar</a></li>
+          <li><a href="adocao.html" class="adot">Adote um pet</a></li>
+          <li><a href="cadastro.html" class="cad">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <br>
+    <br>
+    
+    <center>
+    <h1>Entre ou crie sua conta!</h1>
+    </center>
+
+    <div class="two-box">
+
+    <div class="form-box">
+      <section id="cadastro">
+          <center>
+              <h2>Entre na sua conta</h2>
+          </center>
+        <form id="formCadastro">
+          <label class="logcad" id="cpf">CPF</label>
+          <input type="number" placeholder="CPF" required id="cpf">
+          <label class="logcad">Senha</label>
+          <input type="password" required>
+          <div class="social-login">
+              <button class="google-btn">
+                <img src="img/google.png" alt="Google logo" width="25" style="vertical-align: middle; margin-right: 8px;">
+                Google
+              </button>
+              <button class="facebook-btn">
+                <img src="img/facebook.png" alt="Facebook logo" width="30" style="vertical-align: middle; margin-right: 8px;">
+                Facebook
+              </button>
+          </div>
+          <button type="submit" class="submit-btn">Entrar</button>
+        </form>
+      </section>
+    </div>
+
+
+    <div class="form-box">
+      <section id="cadastro">
+          <center>
+              <h2>Faça seu cadastro</h2>
+          </center>
+        <form id="formCadastro">
+          <label class="logcad">Qual o seu nome?</label>
+          <input type="text" required>
+          <label class="logcad" id="cpf">CPF</label>
+          <input type="text" required id="cpf">
+          <div class="social-login">
+              <button class="google-btn">
+                <img src="img/google.png" alt="Google logo" width="25" style="vertical-align: middle; margin-right: 8px;">
+                Google
+              </button>
+              <button class="facebook-btn">
+                <img src="img/facebook.png" alt="Facebook logo" width="30" style="vertical-align: middle; margin-right: 8px;">
+                Facebook
+              </button>
+          </div>
+          <button onclick="irparapaginacadastro()" type="submit" class="submit-btn">Criar conta</button>
+        </form>
+      </section>
+    </div>
+
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
