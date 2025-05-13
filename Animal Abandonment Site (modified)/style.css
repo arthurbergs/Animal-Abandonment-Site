@@ -127,7 +127,7 @@ body
   
   .info 
   {
-    padding: 15px;
+    padding: 10px;
   }
   
   .info h3 
@@ -320,11 +320,6 @@ body
   {
     font-family: 'Space Mono', monospace;
     font-weight: 300;
-    color: #ffffff;
-  }
-
-  .social
-  {
     color: #000000;
   }
 
@@ -338,16 +333,17 @@ body
   {
     font-family: 'Space Mono', monospace;
     font-weight: 300;
+    color: #000000;
   }
 
   .cadbackground
   {
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #5280dd 44%, white 45%);
+    background-image: url(img/patasBorradas.png);
   }
 
-.galeria
+  .galeria
   {
     display: inline block;
     justify-content: center;
@@ -409,7 +405,7 @@ body
 
   .cdcback
   {
-    background-color: #5280dd;
+    background-image: url(img/patasBorradas.png);
   }
 
   .logcad
@@ -418,4 +414,14 @@ body
     font-family: 'Space Mono', monospace;
     font-weight: 500;
     font-size: large;
+  }
+
+  .acord
+  {
+    background-image: url(img/patasBorradas.png);
+  }
+  
+  .index
+  {
+    background-image: url(img/patasBorradas.png);
   }

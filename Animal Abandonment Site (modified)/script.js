@@ -6,16 +6,10 @@ document.addEventListener("DOMContentLoaded", () =>
     form.addEventListener("submit", (e) => 
       {
       e.preventDefault();
-      alert("Cadastro realizado com sucesso!");
+      alert("Você entrou na sua conta");
       form.reset();
     });
-  
-    const animais = 
-    [
-      { nome: "Luna", especie: "Cachorro", image: "download.jpg" },
-      { nome: "Mimi", especie: "Gato", image: "images.jpg" },
-      { nome: "Tico", especie: "Coelho", image: "download (1).jpg" },
-    ];
+
   
     animais.forEach(animal => 
       {
@@ -75,6 +69,8 @@ document.addEventListener("DOMContentLoaded", () =>
   
     telefoneInput.value = value;
   });
+  
+  // --------------------------->  Buscador de CPF  <-------------------------------
 
   document.addEventListener('DOMContentLoaded', function () {
     const cepInput = document.getElementById('cep');
