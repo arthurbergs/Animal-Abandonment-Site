@@ -14,6 +14,8 @@ body
     padding: 1px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(95, 95, 95, 0.8);
+    display: flex;
+    justify-content: space-around;
   }
   
   nav ul   /*Os títulos da página (home, adoção e cadastro)*/
@@ -22,8 +24,6 @@ body
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    gap: 500px;
   }
   
   nav ul li a /*A cor dos títulos etc*/
@@ -168,8 +168,8 @@ body
     font-weight: bold;
     color: #696cff;
     text-decoration: none;
-    margin-left: 18px;
-    
+    margin-right: 800px;
+    margin-left: 80px;
 
     font-family: Cursive;
     transition: transform 0.3s ease;
@@ -283,6 +283,7 @@ body
   .cad /*Botão de entrar*/
   {
     display: flex;
+    justify-content: flex-start;
     border: 3px solid;
     border-radius: 8px;
     padding: 10px;
@@ -290,6 +291,7 @@ body
     color: #ffffff;
     border-color: #F9A870;
     transition: transform 0.3s ease;
+    margin-left: 30px;
   }
 
   .cad:hover  /*animação do botão*/
@@ -299,6 +301,24 @@ body
   
 
   .adot /*Botão de adotar um pet*/
+  {
+    display: flex;
+    border: 3px solid; 
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F9A870;
+    color: #ffffff;
+    border-color: #F9A870;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+  }
+
+  .adot:hover  /*animação do botão*/
+  {
+    transform: scale(1.1);
+  }
+
+  .achado
   {
     display: flex;
     margin: 1px;
@@ -311,7 +331,7 @@ body
     transition: transform 0.3s ease;
   }
 
-  .adot:hover  /*animação do botão*/
+  .achado:hover
   {
     transform: scale(1.1);
   }
@@ -422,6 +442,35 @@ body
   }
   
   .index
+  {
+    background-image: url(img/patasBorradas.png);
+  }
+
+  .box
+  {
+    background-image: url(img/iaPhoto.png);
+    background-size:1250px;
+    padding: 40;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    width: 1250px;
+    height: 450px;
+    border: 5px solid;
+    border-color: white;
+  }
+  
+  .h1box
+  {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+
+  .acho
   {
     background-image: url(img/patasBorradas.png);
   }
