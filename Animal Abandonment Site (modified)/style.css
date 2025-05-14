@@ -14,8 +14,6 @@ body
     padding: 1px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(95, 95, 95, 0.8);
-    display: flex;
-    justify-content: space-around;
   }
   
   nav ul   /*Os títulos da página (home, adoção e cadastro)*/
@@ -24,6 +22,8 @@ body
     padding: 0;
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    gap: 500px;
   }
   
   nav ul li a /*A cor dos títulos etc*/
@@ -168,8 +168,8 @@ body
     font-weight: bold;
     color: #696cff;
     text-decoration: none;
-    margin-right: 800px;
-    margin-left: 80px;
+    margin-left: 18px;
+    
 
     font-family: Cursive;
     transition: transform 0.3s ease;
@@ -250,25 +250,6 @@ body
     justify-content: space-between 1px;
   }
   
-  .submit-btn-2 /*Botão de entrar da tela de cadastro*/
-  {
-    background-color: #333333;
-    border: 1px solid #252525;
-    color: #fff;
-    font-family: 'Space Mono', monospace;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 10px;
-    display:flexbox;
-    transition: transform 0.3s ease;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
-  } 
-
-  .submit-btn-2:hover
-  {
-    transform: scale(1.01);
-  }
-
   .submit-btn /*Botão de entrar*/
   {
     background-color: #333333;
@@ -302,7 +283,6 @@ body
   .cad /*Botão de entrar*/
   {
     display: flex;
-    justify-content: flex-start;
     border: 3px solid;
     border-radius: 8px;
     padding: 10px;
@@ -310,7 +290,6 @@ body
     color: #ffffff;
     border-color: #F9A870;
     transition: transform 0.3s ease;
-    margin-left: 30px;
   }
 
   .cad:hover  /*animação do botão*/
@@ -320,24 +299,6 @@ body
   
 
   .adot /*Botão de adotar um pet*/
-  {
-    display: flex;
-    border: 3px solid; 
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #F9A870;
-    color: #ffffff;
-    border-color: #F9A870;
-    transition: transform 0.3s ease;
-    margin-left: 30px;
-  }
-
-  .adot:hover  /*animação do botão*/
-  {
-    transform: scale(1.1);
-  }
-
-  .achado
   {
     display: flex;
     margin: 1px;
@@ -350,7 +311,7 @@ body
     transition: transform 0.3s ease;
   }
 
-  .achado:hover
+  .adot:hover  /*animação do botão*/
   {
     transform: scale(1.1);
   }
@@ -464,71 +425,3 @@ body
   {
     background-image: url(img/patasBorradas.png);
   }
-
-  .box
-  {
-    background-image: url(img/extendedDog.png);
-    background-size:1250px;
-    padding: 40;
-    border-radius: 20px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
-    text-align: left;
-    width: 1250px;
-    height: 450px;
-    border: 5px solid;
-    border-color: white;
-  }
-  
-  .h1box
-  {
-    color: #696cff;
-    font-family: Arial, sans-serif;;
-    font-size: 40px;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 40px;
-  }
-
-  .acho
-  {
-    background-image: url(img/patasBorradas.png);
-  }
-
- /*----------------------------------------- Adote um Pet --------------------------------------*/
-  
-
-.info-box {
-  background: #f0eaff;
-  padding: 16px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.drop-area {
-  border: 2px dashed #F9A870;
-  border-radius: 8px;
-  padding: 50px;
-  text-align: center;
-  background: #fff;
-  position: relative;
-}
-
-.preview{
-  max-width: 100%;
-  max-height: 250px;
-  border-radius: 6px;
-  margin-top: 10px;
-}
-
-.hint {
-  font-size: 12px;
-  color: #777;
-  margin-top: 8px;
-}
-  
